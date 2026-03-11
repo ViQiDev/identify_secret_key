@@ -35,7 +35,7 @@ HISTORY_KEY_COLUMN = "历史密钥"
 
 # ===================== 密钥配置 =====================
 # 身份密钥长度
-KEY_LENGTH = 16
+KEY_LENGTH = 64
 # 密钥字符集（字母+数字，可扩展为包含特殊字符）
 KEY_CHARSET = "ascii_letters+digits"  # 可选：ascii_letters/digits/ascii_letters+digits+punctuation
 
