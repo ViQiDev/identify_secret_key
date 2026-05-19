@@ -23,15 +23,15 @@ for dir_path in [INPUT_DIR, OUTPUT_DIR, LOG_DIR]:
 
 # ===================== Excel配置 =====================
 # 原始姓名Excel文件名
-INPUT_EXCEL_FILENAME = "姓名列表.xlsx"
+INPUT_EXCEL_FILENAME = "ai生图使用人员登记.xlsx"
 # 输出Excel文件名（生成/重置后的文件）
-OUTPUT_EXCEL_FILENAME = "姓名_身份密钥.xlsx"
+OUTPUT_EXCEL_FILENAME = "ai生图使用人员登记_身份密钥.xlsx"
 # 姓名列的列名（根据你的Excel修改）
-NAME_COLUMN = "姓名"
+NAME_COLUMN = "name"
 # 密钥列名
-KEY_COLUMN = "身份密钥"
+KEY_COLUMN = "identify_key"
 # 历史密钥列名（重置时保留历史用）
-HISTORY_KEY_COLUMN = "历史密钥"
+HISTORY_KEY_COLUMN = "history_key"
 
 # ===================== 密钥配置 =====================
 # 身份密钥长度

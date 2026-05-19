@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE files
+.idea/
+
+# Local runtime data and sensitive spreadsheets
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+input/
+output/
+data/
+logs/
+*.log
